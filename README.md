@@ -6,6 +6,8 @@ Absolut est un journal personnel pour retrouver les trades, annoter le ressenti 
 
 Pour une vraie fenêtre d'application avec son icône, publie Absolut avec GitHub Pages, ouvre son adresse `https://…github.io/…` dans Chrome ou Edge, puis choisis **Installer Absolut** dans le menu du navigateur. Absolut pourra ensuite s'ouvrir depuis le menu Démarrer et rester accessible hors ligne après son premier chargement.
 
+L'icône d'installation est fournie en PNG aux tailles 192 et 512 pixels pour une meilleure compatibilité Windows.
+
 Ouvrir directement `index.html` depuis un dossier permet de voir l'application, mais ne permet pas de l'installer comme une PWA. Pour garder une copie locale, conserve aussi le dossier décompressé.
 
 ## Mettre sur GitHub

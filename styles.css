@@ -17,3 +17,7 @@
 .trade-row{-webkit-appearance:none;appearance:none;background:linear-gradient(105deg,rgba(43,38,49,.88),rgba(27,24,33,.88));color:#f3eff7;border-color:rgba(255,255,255,.035)}
 .trade-row:hover{background:linear-gradient(105deg,rgba(55,48,61,.92),rgba(34,30,40,.92))}
 
+
+#trade-list .trade-row:not(.selected){-webkit-appearance:none!important;appearance:none!important;background:linear-gradient(105deg,rgba(43,38,49,.92),rgba(27,24,33,.92))!important;color:#f3eff7!important}
+#trade-list .trade-row:not(.selected):hover{background:linear-gradient(105deg,rgba(55,48,61,.96),rgba(34,30,40,.96))!important}
+

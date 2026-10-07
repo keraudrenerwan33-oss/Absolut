@@ -2,13 +2,15 @@
 
 Absolut est un journal personnel pour retrouver les trades, annoter le ressenti et signaler les erreurs à revoir. Il contient les trois sections **Historique**, **Erreurs à revoir** et **Importer**.
 
-## Utiliser sur ton PC
+## Installer comme une appli sur ton PC
 
-Décompresse le ZIP dans un dossier, puis ouvre `index.html` dans ton navigateur. Garde ensemble `index.html`, `app.js`, `initial-trades.js` et `styles.css`.
+Pour une vraie fenêtre d'application avec son icône, publie Absolut avec GitHub Pages, ouvre son adresse `https://…github.io/…` dans Chrome ou Edge, puis choisis **Installer Absolut** dans le menu du navigateur. Absolut pourra ensuite s'ouvrir depuis le menu Démarrer et rester accessible hors ligne après son premier chargement.
+
+Ouvrir directement `index.html` depuis un dossier permet de voir l'application, mais ne permet pas de l'installer comme une PWA. Pour garder une copie locale, conserve aussi le dossier décompressé.
 
 ## Mettre sur GitHub
 
-Décompresse le ZIP, puis ajoute les cinq fichiers de ce dossier au dépôt GitHub de ton choix. Pour en faire un site, active **GitHub Pages** dans les réglages du dépôt. Les données saisies sur le site restent dans le navigateur utilisé : elles ne se synchronisent pas automatiquement avec la version ouverte depuis ton PC.
+Décompresse le ZIP, puis ajoute tous les fichiers de ce dossier au dépôt GitHub de ton choix. Active ensuite **GitHub Pages** dans les réglages du dépôt pour obtenir l'adresse HTTPS qui permet l'installation. Les données saisies dans Absolut restent dans le navigateur de cet appareil : elles ne se synchronisent pas automatiquement entre le site et une copie locale.
 
 ## Données
 

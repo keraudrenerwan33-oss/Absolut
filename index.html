@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07060c">
   <title>Absolut — Journal de trading</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
@@ -91,5 +93,10 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="initial-trades.js"></script>
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(error => console.warn('Absolut : installation hors ligne indisponible.', error)));
+    }
+  </script>
 </body>
 </html>
